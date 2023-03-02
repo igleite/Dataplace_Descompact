@@ -1,0 +1,67 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Backup\\Engenharia-Reversa\\Dataplace_Descompact\\decompiler\\Dataplace_Descompact_Custom.csproj": {}
+  },
+  "projects": {
+    "C:\\Backup\\Engenharia-Reversa\\Dataplace_Descompact\\decompiler\\Dataplace_Descompact_Custom.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Backup\\Engenharia-Reversa\\Dataplace_Descompact\\decompiler\\Dataplace_Descompact_Custom.csproj",
+        "projectName": "Dataplace_Descompact",
+        "projectPath": "C:\\Backup\\Engenharia-Reversa\\Dataplace_Descompact\\decompiler\\Dataplace_Descompact_Custom.csproj",
+        "packagesPath": "C:\\Users\\igorl\\.nuget\\packages\\",
+        "outputPath": "C:\\Backup\\Engenharia-Reversa\\Dataplace_Descompact\\decompiler\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\igorl\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net472"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "http://nuget.grapecity.com/nuget": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net472": {
+            "targetAlias": "net472",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net472": {
+          "targetAlias": "net472",
+          "dependencies": {
+            "SharpCompress": {
+              "target": "Package",
+              "version": "[0.32.2, )"
+            },
+            "System.Resources.Extensions": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "ilmerge": {
+              "target": "Package",
+              "version": "[3.0.29, )"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+        }
+      },
+      "runtimes": {
+        "win7-x86": {
+          "#import": []
+        }
+      }
+    }
+  }
+}
